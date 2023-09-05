@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 const Color _customColor = Color(0xFFA356F6);
   final List<Color> _colorThemes = [
     _customColor,
-    Colors.lime,
-    Colors.amber,
-    Colors.pink.shade800,
-    Colors.cyanAccent.shade100,
-    Colors.orange,
+    const Color.fromARGB(255, 124, 138, 3),
+    const Color.fromARGB(255, 109, 2, 29),
+    const Color.fromARGB(255, 245, 83, 153),
+    Color.fromARGB(255, 100, 227, 227),
+    const Color.fromARGB(255, 253, 164, 30),
   ];
 class AppTheme {
     final int selectedColor;
